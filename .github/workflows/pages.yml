@@ -25,12 +25,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          # ❌ on supprime le cache npm (pas de lockfile)
+          cache: 'none'
 
-      - name: Install deps
+      - name: Install dependencies
         run: npm install
 
-      - name: Build
+      - name: Build project
         run: npm run build
 
       - name: SPA fallback (React Router)
