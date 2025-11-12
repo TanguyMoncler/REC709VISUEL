@@ -25,8 +25,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          # ❌ on supprime le cache npm (pas de lockfile)
-          cache: 'none'
 
       - name: Install dependencies
         run: npm install
@@ -35,6 +33,7 @@ jobs:
         run: npm run build
 
       - name: SPA fallback (React Router)
+        # évite les 404 sur le rechargement d'une route client
         run: |
           cp build/index.html build/404.html || true
 
