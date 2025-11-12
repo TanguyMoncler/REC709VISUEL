@@ -13,6 +13,12 @@ import photo9 from "./assets/photo9.jpg";
 import photo10 from "./assets/photo10.jpg";
 import photo11 from "./assets/photo11.jpg";
 import photo12 from "./assets/photo12.jpg";
+import photo13 from "./assets/photo13.jpg";
+import photo14 from "./assets/photo14.jpg";
+import photo15 from "./assets/photo15.jpg";
+import photo16 from "./assets/photo16.jpg";
+import photo17 from "./assets/photo17.jpg";
+import photo18 from "./assets/photo18.jpg";
 
 export default function App() {
   const photos = [
