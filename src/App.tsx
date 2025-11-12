@@ -1,14 +1,11 @@
 import { SimpleHeader } from "./components/SimpleHeader";
 import { PhotoMasonry } from "./components/PhotoMasonry";
 
-// URLs pointent vers public/photos/...
-// On ENCODE le nom "photo (n).jpg" pour éviter les 404 (%20, etc.)
-const makeUrl = (n: number) =>
-  `${import.meta.env.BASE_URL}photos/${encodeURIComponent(`photo (${n}).jpg`)}`;
+const cloudinaryBase = "https://res.cloudinary.com/djq2gnnfp/image/upload/v1762970879/";
 
 const photos = Array.from({ length: 36 }, (_, i) => ({
   id: i + 1,
-  url: makeUrl(i + 1),
+  url: `${cloudinaryBase}photo_${i + 1}.jpg`,
   title: "Title",
   photographer: "Nelson Charles",
 }));
