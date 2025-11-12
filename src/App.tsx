@@ -1,24 +1,43 @@
 import { SimpleHeader } from "./components/SimpleHeader";
 import { PhotoMasonry } from "./components/PhotoMasonry";
 
-import photo1 from "./assets/photo1.jpg";
-import photo2 from "./assets/photo2.jpg";
-import photo3 from "./assets/photo3.jpg";
-import photo4 from "./assets/photo4.jpg";
-import photo5 from "./assets/photo5.jpg";
-import photo6 from "./assets/photo6.jpg";
-import photo7 from "./assets/photo7.jpg";
-import photo8 from "./assets/photo8.jpg";
-import photo9 from "./assets/photo9.jpg";
-import photo10 from "./assets/photo10.jpg";
-import photo11 from "./assets/photo11.jpg";
-import photo12 from "./assets/photo12.jpg";
-import photo13 from "./assets/photo13.jpg";
-import photo14 from "./assets/photo14.jpg";
-import photo15 from "./assets/photo15.jpg";
-import photo16 from "./assets/photo16.jpg";
-import photo17 from "./assets/photo17.jpg";
-import photo18 from "./assets/photo18.jpg";
+import photo1 from "./assets/photo (1).jpg";
+import photo2 from "./assets/photo (2).jpg";
+import photo3 from "./assets/photo (3).jpg";
+import photo4 from "./assets/photo (4).jpg";
+import photo5 from "./assets/photo (5).jpg";
+import photo6 from "./assets/photo (6).jpg";
+import photo7 from "./assets/photo (7).jpg";
+import photo8 from "./assets/photo (8).jpg";
+import photo9 from "./assets/photo (9).jpg";
+import photo10 from "./assets/photo (10).jpg";
+import photo11 from "./assets/photo (11).jpg";
+import photo12 from "./assets/photo (12).jpg";
+import photo13 from "./assets/photo (13).jpg";
+import photo14 from "./assets/photo (14).jpg";
+import photo15 from "./assets/photo (15).jpg";
+import photo16 from "./assets/photo (16).jpg";
+import photo17 from "./assets/photo (17).jpg";
+import photo18 from "./assets/photo (18).jpg";
+import photo19 from "./assets/photo (19).jpg";
+import photo20 from "./assets/photo (20).jpg";
+import photo21 from "./assets/photo (21).jpg";
+import photo22 from "./assets/photo (22).jpg";
+import photo23 from "./assets/photo (23).jpg";
+import photo24 from "./assets/photo (24).jpg";
+import photo25 from "./assets/photo (25).jpg";
+import photo26 from "./assets/photo (26).jpg";
+import photo27 from "./assets/photo (27).jpg";
+import photo28 from "./assets/photo (28).jpg";
+import photo29 from "./assets/photo (29).jpg";
+import photo30 from "./assets/photo (30).jpg";
+import photo31 from "./assets/photo (31).jpg";
+import photo32 from "./assets/photo (32).jpg";
+import photo33 from "./assets/photo (33).jpg";
+import photo34 from "./assets/photo (34).jpg";
+import photo35 from "./assets/photo (35).jpg";
+import photo36 from "./assets/photo (36).jpg";
+
 
 export default function App() {
   const photos = [
