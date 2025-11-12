@@ -1,9 +1,10 @@
 import { SimpleHeader } from "./components/SimpleHeader";
 import { PhotoMasonry } from "./components/PhotoMasonry";
 
-// Génère automatiquement les URLs vers public/photos/photo (1).jpg → photo (36).jpg
+// URLs pointent vers public/photos/...
+// On ENCODE le nom "photo (n).jpg" pour éviter les 404 (%20, etc.)
 const makeUrl = (n: number) =>
-  `${import.meta.env.BASE_URL}photos/photo (${n}).jpg`;
+  `${import.meta.env.BASE_URL}photos/${encodeURIComponent(`photo (${n}).jpg`)}`;
 
 const photos = Array.from({ length: 36 }, (_, i) => ({
   id: i + 1,
