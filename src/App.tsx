@@ -130,12 +130,118 @@ export default function App() {
       title: "Title",
       photographer: "Nelson Charles",
     },
+	      {
+      id: 19,
+      url: photo19,
+      title: "Title",
+      photographer: "Nelson Charles",
+    },
+    {
+      id: 20,
+      url: photo20,
+      title: "Title",
+      photographer: "Nelson Charles",
+    },
+    {
+      id: 21,
+      url: photo21,
+      title: "Title",
+      photographer: "Nelson Charles",
+    },
+    {
+      id: 22,
+      url: photo22,
+      title: "Title",
+      photographer: "Nelson Charles",
+    },
+    {
+      id: 23,
+      url: photo23,
+      title: "Title",
+      photographer: "Nelson Charles",
+    },
+    {
+      id: 24,
+      url: photo24,
+      title: "Title",
+      photographer: "Nelson Charles",
+    },
+    {
+      id: 25,
+      url: photo25,
+      title: "Title",
+      photographer: "Nelson Charles",
+    },
+    {
+      id: 26,
+      url: photo26,
+      title: "Title",
+      photographer: "Nelson Charles",
+    },
+    {
+      id: 27,
+      url: photo27,
+      title: "Title",
+      photographer: "Nelson Charles",
+    },
+    {
+      id: 28,
+      url: photo28,
+      title: "Title",
+      photographer: "Nelson Charles",
+    },
+    {
+      id: 29,
+      url: photo29,
+      title: "Title",
+      photographer: "Nelson Charles",
+    },
+    {
+      id: 30,
+      url: photo30,
+      title: "Title",
+      photographer: "Nelson Charles",
+    },
+    {
+      id: 31,
+      url: photo31,
+      title: "Title",
+      photographer: "Nelson Charles",
+    },
+    {
+      id: 32,
+      url: photo32,
+      title: "Title",
+      photographer: "Nelson Charles",
+    },
+    {
+      id: 33,
+      url: photo33,
+      title: "Title",
+      photographer: "Nelson Charles",
+    },
+    {
+      id: 34,
+      url: photo34,
+      title: "Title",
+      photographer: "Nelson Charles",
+    },
+    {
+      id: 35,
+      url: photo35,
+      title: "Title",
+      photographer: "Nelson Charles",
+    },
+    {
+      id: 36,
+      url: photo36,
+      title: "Title",
+      photographer: "Nelson Charles",
+    },
   ];
-
-  return (
-    <div className="min-h-screen bg-white">
-      <SimpleHeader />
-      <PhotoMasonry initialPhotos={photos} />
-    </div>
-  );
-}
+return (
+  <div className="min-h-screen" style={{ backgroundColor: "#EDE8D0" }}>
+    <SimpleHeader />
+    <PhotoMasonry initialPhotos={photos} />
+  </div>
+);
